@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.logo {
+  margin-top: 5px;
+  margin-bottom: 11px;  
+  width: 123px;
+  height: 90px;
+}
+
+.actions {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}

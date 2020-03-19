@@ -1,0 +1,29 @@
+ul.dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+
+}
+
+ul.dots>li {
+  display: inline-block;
+}
+
+ul.dots>li button {
+  border: none;
+  background-color: #fff;
+  color: #fff;
+  margin-right: 15px;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+}
+
+.dots .carousel-dots-active>button {
+  background-color: #E4B56B;
+  color: #E4B56B;
+}

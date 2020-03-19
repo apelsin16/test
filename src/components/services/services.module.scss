@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Raleway400';
+  src: url('../../fonts/ralewayregular.woff2') format('woff2'),
+    url('../../fonts/ralewayregular.woff') format('woff'),
+    url('../../fonts/ralewayregular.ttf') format('truetype'),
+}
+
+.section {
+  width: 1360px;
+  margin: 0 auto;
+}
+
+.listWrapper {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.button {
+  margin: 0 auto;
+  display: block;
+  width: 379px;
+  height: 43px;
+  background: #454647;
+  font-family: 'Raleway400', sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  border: none;
+  color: #FFFFFF;
+}

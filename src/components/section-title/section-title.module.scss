@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Raleway600';
+  src: url('../../fonts/ralewaysemibold.woff2') format('woff2'),
+    url('../../fonts/ralewaysemibold.woff') format('woff'),
+    url('../../fonts/ralewaysemibold.ttf') format('truetype'),
+}
+
+.title {
+  font-family: 'Raleway600';
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #3E3E3E;
+
+  &::after {
+    content: '';
+    display: block;
+    margin: 10px auto;
+    width: 82px;
+    height: 2px;
+    background: #E4B56B;
+  }
+}
