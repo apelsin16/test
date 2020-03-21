@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Raleway500';
+  src: url('../../fonts/ralewaymedium.woff2') format('woff2'),
+    url('../../fonts/ralewaymedium.woff') format('woff'),
+    url('../../fonts/ralewaymedium.ttf') format('truetype'),
+}
+
+.about {
+  width: 30%;
+  padding-left: 90px;
+
+}
+
+.nav {
+  margin-top: 16px;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.link {
+  font-family: 'Raleway500';
+  font-size: 16px;
+  line-height: 21px;
+  color: #AEAEAE;
+}
+
+@media screen and (max-width: 1359px) {
+  .about {
+    width: 35%;
+    padding-left: 16px;
+  }
+
+  .link {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .nav {
+    margin-top: 0;
+  }
+}

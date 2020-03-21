@@ -9,22 +9,22 @@ const Banner = () => {
             <Slider dots arrows={false} dotsClass='dots' className={styles.slider}>
                 <div className={styles.wrapperItem} >
                     <div className={styles.wrapTitle}>
-                        <h2 className={styles.title}>Высокоточное изготовление изделий из металла по чертежам</h2>
+                        <h2 className={styles.title}>Высокоточное изготовление <br/> изделий из металла по чертежам</h2>
                     </div>
                 </div>
                 <div className={styles.wrapperItem}>
                     <div className={styles.wrapTitle}>
-                        <h2 className={styles.title}>Высокоточное изготовление изделий из металла по чертежам</h2>
+                        <h2 className={styles.title}>Высокоточное изготовление<br/> изделий из металла по чертежам</h2>
                     </div>
                 </div>
                 <div className={styles.wrapperItem}>
                     <div className={styles.wrapTitle}>
-                        <h2 className={styles.title}>Высокоточное изготовление изделий из металла по чертежам</h2>
+                        <h2 className={styles.title}>Высокоточное изготовление<br/> изделий из металла по чертежам</h2>
                     </div>
                 </div>
                 <div className={styles.wrapperItem}>
                     <div className={styles.wrapTitle}>
-                        <h2 className={styles.title}>Высокоточное изготовление изделий из металла по чертежам</h2>
+                        <h2 className={styles.title}>Высокоточное изготовление<br/> изделий из металла по чертежам</h2>
                     </div>
                 </div>
             </Slider>

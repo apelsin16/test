@@ -4,6 +4,7 @@ import Header from './components/header/header';
 import Banner from './components/banner/banner';
 import Services from './components/services/services';
 import OurCompany from './components/our-company/our-company';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <Services />
       <OurCompany />
+      <Footer/>
     </div>
   );
 }

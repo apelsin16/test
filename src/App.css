@@ -1,4 +1,12 @@
 .App {
-  width: 1360px;
+  max-width: 1360px;
   margin: 0 auto;
 }
+
+
+@media screen and (max-width: 1359px) {
+  .App {
+    min-width: 360px;
+  }
+}
+

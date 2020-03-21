@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Raleway500';
+  src: url('../../fonts/ralewaymedium.woff2') format('woff2'),
+    url('../../fonts/ralewaymedium.woff') format('woff'),
+    url('../../fonts/ralewaymedium.ttf') format('truetype'),
+}
+
+.title {
+  padding-top: 20px;
+  font-family: 'Raleway500';
+  font-size: 18px;
+  line-height: 21px;
+  color: #3E3E3E;
+  border-right: 1px solid #E4B56B;
+
+}
+
+@media screen and (max-width: 1359px) {
+  .title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

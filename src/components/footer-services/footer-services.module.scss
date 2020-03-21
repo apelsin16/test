@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Raleway500';
+  src: url('../../fonts/ralewaymedium.woff2') format('woff2'),
+    url('../../fonts/ralewaymedium.woff') format('woff'),
+    url('../../fonts/ralewaymedium.ttf') format('truetype'),
+}
+
+.services {
+  width: 37%;
+  padding-left: 40px;
+}
+
+.nav {
+  margin-top: 16px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  margin-bottom: 15px;
+  flex-basis: 49%;
+
+  &:nth-of-type(2n) {
+    margin-left: 2%;
+  }
+}
+
+.link {
+  font-family: 'Raleway500';
+  font-size: 16px;
+  line-height: 21px;
+  color: #AEAEAE;
+}
+
+@media screen and (max-width: 1359px) {
+  .services {
+    width: 61%;
+    padding-left: 20px;
+  }
+
+  .list {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .item {
+    margin-bottom: 15px;
+    flex-basis: 49%;
+
+    &:nth-of-type(2n) {
+      margin-left: 0;
+    }
+  }
+
+  .nav {
+    margin-top: 0;
+  }
+
+  .link {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

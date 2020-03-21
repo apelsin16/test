@@ -1,18 +1,99 @@
+@font-face {
+  font-family: 'Raleway600';
+  src: url('../../fonts/ralewaysemibold.woff2') format('woff2'),
+    url('../../fonts/ralewaysemibold.woff') format('woff'),
+    url('../../fonts/ralewaysemibold.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Raleway500';
+  src: url('../../fonts/ralewaymedium.woff2') format('woff2'),
+    url('../../fonts/ralewaymedium.woff') format('woff'),
+    url('../../fonts/ralewaymedium.ttf') format('truetype'),
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   margin-left: 90px;
   margin-right: 90px;
+
 }
 
 .logo {
   margin-top: 5px;
-  margin-bottom: 11px;  
+  margin-bottom: 11px;
   width: 123px;
   height: 90px;
 }
 
 .actions {
-    align-self: flex-end;
-    margin-bottom: 20px;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.menuButton {
+  display: inline-block;
+  border: none;
+  background-color: inherit;
+}
+
+@media screen and (max-width: 1359px) {
+  .header {
+    margin: 2px 16px;
+    position: relative;
+  }
+
+  .logo {
+    width: 80px;
+    height: 56px;
+  }
+
+  .menu {
+    font-family: 'Raleway600', sans-serif;
+    position: absolute;
+    left: -16px;
+    right: -16px;
+    top: 73px;
+    padding-top: 15px;
+    height: 100vh;
+    z-index: 9999;
+    background: linear-gradient(180deg, #49494A 17.19%, #383836 100%);
+  }
+
+  .menuHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(228, 181, 107, 0.5);
+  }
+
+  .menuTitle {
+    font-size: 18px;
+    line-height: 21px;
+    color: #AEAEAE;
+  }
+
+  .flags {
+    display: flex;
+  }
+
+  .flagButton {
+    background-color: inherit;
+    border: none;
+    margin-left: 20px;
+  }
+
+  .link {
+    display: block;
+    font-family: 'Raleway600', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 20px 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(228, 181, 107, 0.5);
+  }
 }

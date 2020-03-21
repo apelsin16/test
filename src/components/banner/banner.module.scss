@@ -6,8 +6,8 @@
 }
 
 .wrapper {
-  width: 1360px;
-  margin: 11px auto;
+  max-width: 1360px;
+  margin: 0 auto;
 }
 
 .wrapperItem {
@@ -20,7 +20,7 @@
 
 .wrapTitle {
   padding: 65px 30px 65px 90px;
-  width: 751px;
+  width: 55%;
   background: rgba(62, 62, 62, 0.9);
   position: relative;
 
@@ -29,7 +29,7 @@
     position: absolute;
     top: 50%;
     left: 0;
-    width: 75%;
+    width: 85%;
     height: 2px;
     background: rgba(228, 181, 107, 0.8);
   }
@@ -45,4 +45,26 @@
 
 .slider {
   position: relative;
+}
+
+@media screen and ( max-width: 1359px ) {
+  .wrapper {
+    min-width: 360px;
+  }
+
+  .wrapperItem {
+    padding-top: 53px;
+    padding-bottom: 53px;
+  }
+
+  .wrapTitle {
+    padding: 30px 15px 30px 16px;
+    width: 70%;
+  }
+
+  .title {
+    font-size: 14px;
+    width: 100%;
+    line-height: 25px;
+  }
 }

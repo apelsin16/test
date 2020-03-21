@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Raleway300';
+  src: url('../../fonts/ralewaylight.woff2') format('woff2'),
+    url('../../fonts/ralewaylight.woff') format('woff'),
+    url('../../fonts/ralewaylight.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Raleway400';
+  src: url('../../fonts/ralewayregular.woff2') format('woff2'),
+    url('../../fonts/ralewayregular.woff') format('woff'),
+    url('../../fonts/ralewayregular.ttf') format('truetype'),
+}
+
+.contacts {
+  padding-left: 145px;
+}
+
+.address {
+  width: 270px;
+  font-family: 'Raleway400', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #3E3E3E;
+  margin-bottom: 15px;
+}
+
+.text {
+  font-family: 'Raleway400';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #3E3E3E;
+  margin-bottom: 15px;
+}
+
+.span,
+.tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  color: #3E3E3E;
+  margin-bottom: 15px;
+}
+
+.list {
+  display: flex;
+  margin-top: 15px;
+}
+
+.item {
+  margin-right: 15px;
+}
+
+
+@media screen and (max-width: 1359px) {
+  .address {
+    width: 190px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+  }
+
+  .text, .tel {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .list {
+    display: flex;
+    justify-content: center;
+  }
+}

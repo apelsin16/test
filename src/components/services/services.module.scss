@@ -6,7 +6,7 @@
 }
 
 .section {
-  width: 1360px;
+  max-width: 1360px;
   margin: 0 auto;
 }
 
@@ -18,7 +18,7 @@
 .button {
   margin: 0 auto;
   display: block;
-  width: 379px;
+  width: 32%;
   height: 43px;
   background: #454647;
   font-family: 'Raleway400', sans-serif;
@@ -27,4 +27,14 @@
   text-align: center;
   border: none;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 1359px) {
+  .section {
+    min-width: 360px;
+  }
+
+  .button {
+    width: 328px;
+  }
 }
